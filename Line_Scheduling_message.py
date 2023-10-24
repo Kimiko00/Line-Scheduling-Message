@@ -29,7 +29,7 @@ class open:
             line = line.send(update_docstring)
             end_time = time.time()
             logging.info(
-                f"{obj.__name__}, date: {date_time}, time: {time_time} UTC+7, start: {start_time:.2f} seconds, end: {end_time:.2f} seconds, duration: {end_time - start_time:.2f} seconds, description: {update_docstring}, event: {KeyboardInterrupt}"
+                f"{obj.__name__}, date: {date_time} UTC+7, time: {time_time}, start: {start_time:.2f} seconds, end: {end_time:.2f} seconds, duration: {end_time - start_time:.2f} seconds, description: {update_docstring}, event: {KeyboardInterrupt}"
             )
             return line
 
